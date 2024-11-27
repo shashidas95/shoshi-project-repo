@@ -18,7 +18,8 @@ class BBAStudent(Student):
 #===================================
 cs = CSEStudent("Bob", 11, 10)
 ba = BBAStudent("carol", 33)
-
+cs.details()
+ba.details()
 cs.cry()
 ba.party()
 
