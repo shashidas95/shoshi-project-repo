@@ -10,6 +10,9 @@ class Dog(Animal):
 #=====================================
 a1 = Animal("jack")
 d1 = Dog("rover")
-a1.eat()
-d1.bark()
-d1.eat()
+# a1.eat()
+# d1.bark()
+# d1.eat()
+print(isinstance(a1, Animal))
+print(isinstance(d1, Dog))
+print(issubclass(Dog, Animal))
